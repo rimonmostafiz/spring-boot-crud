@@ -1,10 +1,15 @@
 package com.rimonmostafiz.core.models;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
 /**
  * @author Rimon Mostafiz
  */
+@Entity
 public class Topic {
 
+    @Id
     private String id;
     private String name;
     private String description;
